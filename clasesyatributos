@@ -1,0 +1,55 @@
+#clase Pelicula
+atributos 
+	Titulo: "El título de la película."
+	Genero: "El género al que pertenece la película. "
+	Anio_lanzamiento: "El año en que se lanzó la película. "
+	Duracion: "La duración de la película en minutos. "
+	Director: "El nombre del director de la película."
+	Actores: "Una lista de los nombres de los actores principales. "
+	Calificacion:" La calificación de la película, por ejemplo, en una escala del 1 al 10."
+
+#métodos: 
+	Obtener_informacion: "Método para obtener y mostrar toda la información de la película."
+	Actualizar_calificacion: "Método para permitir a los usuarios actualizar la calificación de la película." 
+	Agregar_actor: "Método para permitir la adición de nuevos actores a la lista de actores de la película."
+	Precio_alquiler: "Metodo para saber el precio de alquiler de la película seleccionada"
+	Stock_peliculas : "Metodo para saber el stock de alquiler de la película seleccionada"
+
+
+#clase Usuario, 
+los atributos 
+	Nombre: "El nombre del usuario. Edad: La edad del usuario."
+	Correo_electronico: "La dirección de correo electrónico del usuario."
+	Contraseña:" La contraseña del usuario para acceder al sistema.
+	Lista_de_peliculas_favoritas: "Una lista de películas que el usuario ha marcado como favoritas. 
+	Historial_de_peliculas_vistas: "Una lista de películas que el usuario ha visto. 
+	Fecha_alta: "la fecha en la que se da de alta el usuario"
+	Numero_amigos_nuevo_socio : total de amigos que se han hecho socios del videoclub
+	Total_puntos: total de puntos que tiene el usuario
+	Fecha_inicio_alquiler:
+	Fecha_entrega:
+
+#Los métodos:
+	Iniciar_sesion: "Método para permitir al usuario iniciar sesión en el sistema. "
+	Cerrar_sesion: "Método para cerrar la sesión del usuario. "
+	Agregar_a_favoritos: "Método para permitir al usuario agregar una película a su lista de películas favoritas."
+	Eliminar_de_favoritos: "Método para permitir al usuario eliminar una película de su lista de películas favoritas." 
+	Agregar_a_historial: "Método para registrar una película vista por el usuario en su historial.
+	Obtener_recomendaciones:" Método para proporcionar al usuario recomendaciones de películas basadas en sus películas favoritas y su historial de visualización."
+	Premio_nuevos_socios: "Método que calcula si ha llegado al total de puntos por llevar a amigos"
+	Lista_alquiladas: "Método para que proporciona las películas que ha alquilado el usuario"
+	Lista_compradas: "Método para que proporciona las películas que ha comprado el usuario"
+	Saldo_de_puntos: "Método para que proporciona los puntos que ha obtenido  el usuario hasta la fecha actual"
+
+
+#clase videoclub
+atributos:
+	Fecha_promocion : Fecha de la promoción
+	Nombre_promoción : 
+	Total_usuario: Realiza la suma de socios de nuestro videoclub
+
+metodos : 
+	Sumar_puntos_usuario : "metodo que realiza la suma total de puntos"
+	Total_peliculas_alquiladas: "suma el total de películas que han sido alquiladas"
+	Total_ingresos_alquiler:"suma el total de los ingresos por películas que han sido alquiladas"
+	Total_ingresos_compra:"suma el total de los ingresos por  películas que han sido compradas"
